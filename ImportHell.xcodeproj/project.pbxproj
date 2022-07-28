@@ -38,6 +38,7 @@
 		57CC4D31289313AC00931CB0 /* OilThing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OilThing.h; sourceTree = "<group>"; };
 		57CC4D332893140400931CB0 /* OilThing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OilThing.m; sourceTree = "<group>"; };
 		57CC4D7C2893176100931CB0 /* MegaOilThing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaOilThing.swift; sourceTree = "<group>"; };
+		57CC4D7F2893239E00931CB0 /* ImportHell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportHell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +135,7 @@
 			children = (
 				57CC4D122893120200931CB0 /* EngineObjC.h */,
 				57CC4D31289313AC00931CB0 /* OilThing.h */,
+				57CC4D7F2893239E00931CB0 /* ImportHell.h */,
 			);
 			path = Public;
 			sourceTree = "<group>";

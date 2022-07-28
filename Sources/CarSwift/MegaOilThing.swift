@@ -10,6 +10,6 @@ import Foundation
 import EngineObjC
 #endif
 
-@objc public class MegaOilThing: NSObject {
+@objc public class MegaOilThing: OilThing {
     
 }
