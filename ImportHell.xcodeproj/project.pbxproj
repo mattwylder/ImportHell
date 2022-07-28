@@ -105,8 +105,7 @@
 		57CC4D112893120200931CB0 /* EngineObjC */ = {
 			isa = PBXGroup;
 			children = (
-				57CC4D122893120200931CB0 /* EngineObjC.h */,
-				57CC4D31289313AC00931CB0 /* OilThing.h */,
+				57CC4D7E2893187300931CB0 /* Public */,
 				57CC4D332893140400931CB0 /* OilThing.m */,
 			);
 			path = EngineObjC;
@@ -128,6 +127,15 @@
 				57CC4D7C2893176100931CB0 /* MegaOilThing.swift */,
 			);
 			path = CarSwift;
+			sourceTree = "<group>";
+		};
+		57CC4D7E2893187300931CB0 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				57CC4D122893120200931CB0 /* EngineObjC.h */,
+				57CC4D31289313AC00931CB0 /* OilThing.h */,
+			);
+			path = Public;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
