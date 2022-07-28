@@ -18,19 +18,19 @@ Pod::Spec.new do |spec|
 
 #  spec.default_subspecs = %w[EngineObjC, EngineSwift, CarSwift]
 
-  spec.subspec "EngineObjC" do |subspec|
-    subspec.source_files = "Sources/EngineObjC/*.{h,m}"
-    subspec.public_header_files = "Sources/EngineObjC/Public/*.h"
-    subspec.dependency "ImportHell/EngineSwift"
+  spec.subspec "EngineObjC" do |s|
+    s.source_files = "Sources/EngineObjC/*.{h,m}"
+    s.public_header_files = "Sources/EngineObjC/Public/*.h"
+    s.dependency "ImportHell/EngineSwift"
   end
 
-  spec.subspec "EngineSwift" do |subspec|
-    subspec.source_files = "Sources/EngineSwift/*.swift"
+  spec.subspec "EngineSwift" do |s|
+    s.source_files = "Sources/EngineSwift/*.swift"
   end
 
-  spec.subspec "CarSwift" do |subspec|
-    subspec.source_files = "Sources/CarSwift/*.swift"
-    subspec.dependency "ImportHell/EngineObjC"
+  spec.subspec "CarSwift" do |s|
+    s.source_files = "Sources/CarSwift/*.swift"
+    s.dependency "ImportHell/EngineObjC"
   end
 
 end
