@@ -6,8 +6,16 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "OilThing.h"
-#import "EngineSwift/EngineSwift-Swift.h"
+
+#if __has_include(<ImportHell/OilThing.h>)
+#import <ImportHell/OilThing.h>
+#else
+#import <EngineObjC/OilThing.h>
+#endif
+
+#if __has_include(<ImportHell/ImportHell-Swift.h>)
+#import <ImportHell/ImportHell-Swift.h>
+#endif
 
 @implementation OilThing
 

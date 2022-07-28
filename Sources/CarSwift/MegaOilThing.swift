@@ -6,8 +6,10 @@
 //
 
 import Foundation
+#if canImport(EngineObjC)
 import EngineObjC
+#endif
 
-@objc public class MegaOilThing: OilThing {
+@objc public class MegaOilThing: NSObject {
     
 }
