@@ -27,7 +27,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		57CC4CDF2893118700931CB0 /* ImportHell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportHell.h; sourceTree = "<group>"; };
 		57CC4D102893120200931CB0 /* EngineObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EngineObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CC4D122893120200931CB0 /* EngineObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EngineObjC.h; sourceTree = "<group>"; };
 		57CC4D1C2893121100931CB0 /* EngineSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EngineSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,21 +83,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		57CC4CDE2893118700931CB0 /* ImportHell */ = {
-			isa = PBXGroup;
-			children = (
-				57CC4CDF2893118700931CB0 /* ImportHell.h */,
-			);
-			path = ImportHell;
-			sourceTree = "<group>";
-		};
 		57CC4CE62893119100931CB0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				57CC4D112893120200931CB0 /* EngineObjC */,
 				57CC4D1D2893121100931CB0 /* EngineSwift */,
 				57CC4D292893122600931CB0 /* CarSwift */,
-				57CC4CDE2893118700931CB0 /* ImportHell */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
