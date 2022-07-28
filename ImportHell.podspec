@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "wow!!"
 
   spec.description  = <<-DESC
-                        wow!
+                        wow! long description
                    DESC
 
   spec.homepage     = "https://github.com/mattwylder/ImportHell"
@@ -13,8 +13,8 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author       = { "Matthew Wylder" => "email@address.com" }
   spec.source       = { :git => "https://github.com/mattwylder/ImportHell.git", :tag => spec.version.to_s }
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.platform = :ios, "13.0"
+  spec.swift_version = "5.5"
 
 #  spec.default_subspecs = %w[EngineObjC, EngineSwift, CarSwift]
 

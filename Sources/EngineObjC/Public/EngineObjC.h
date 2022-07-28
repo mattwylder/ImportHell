@@ -14,5 +14,9 @@ FOUNDATION_EXPORT double EngineObjCVersionNumber;
 FOUNDATION_EXPORT const unsigned char EngineObjCVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <EngineObjC/PublicHeader.h>
+#if __has_include(<ImportHell/OilThing.h>)
+#import <ImportHell/OilThing.h>
+#else
 #import <EngineObjC/OilThing.h>
+#endif
 
